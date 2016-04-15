@@ -14,3 +14,13 @@ function sumAndMultiply(a, b, c){
   console.log('"The nimbers ' + a + ' and ' + b + ' and ' + c + ' have a product of ' + sum_product[1] + '"');
   return sum_product;
 }
+
+function sumArray(a) {
+  var sum_array = 0;
+  for (var i = 0; i < a.length; i++){
+    sum_array = sum_array + a[i];
+  }
+  console.table(b);
+  console.log(a.toString() + ' was passed in as an array of numbers, and ' + sum_array + ' is their sum');
+  return sum_array;
+}
