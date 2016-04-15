@@ -19,7 +19,7 @@ function multiply (a, b) {
 
   return productOfTwo;
 }
-
+//Great use of code to limit the amount of lines!
 function sumAndMultiply(a, b, c){
   var sum_product = [sum(sum(a, b), c), multiply(multiply(a, b), c)];
 
@@ -57,7 +57,7 @@ function multiplyArray(a) {
   for (var i = 0; i < a.length; i++){
     multiply_array *= a[i];
   }
-
+//You make it look easy, thanks for the help with theory!
   console.table(a);
   console.log('"The numbers ' + a.toString() + ' have a product of ' + multiply_array + '"');
 
