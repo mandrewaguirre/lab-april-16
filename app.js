@@ -20,7 +20,7 @@ function sumArray(a) {
   for (var i = 0; i < a.length; i++){
     sum_array = sum_array + a[i];
   }
-  console.table(b);
+  console.table(a);
   console.log(a.toString() + ' was passed in as an array of numbers, and ' + sum_array + ' is their sum');
   return sum_array;
 }
