@@ -21,6 +21,16 @@ function sumArray(a) {
     sum_array = sum_array + a[i];
   }
   console.table(a);
-  console.log(a.toString() + ' was passed in as an array of numbers, and ' + sum_array + ' is their sum');
+  console.log('"' + a.toString() + ' was passed in as an array of numbers, and ' + sum_array + ' is their sum"');
   return sum_array;
+}
+
+function multiplyArray(a) {
+  var multiply_array = 1;
+  for (var i = 0; i < a.length; i++){
+    multiply_array = multiply_array * a[i];
+  }
+  console.table(a);
+  console.log('"The numbers ' + a.toString() + ' have a product of ' + multiply_array + '"');
+  return multiply_array;
 }
